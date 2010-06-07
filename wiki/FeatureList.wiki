@@ -73,6 +73,7 @@ TextStyle       TxtStyle<br>
 *UpdateMethod:* IncidentSolarRadiationByPolygons
 
 *Parameters:*
+
 EcotectPolygonObject      EcoObject<br>
 EcotectProject            EcoProject<br>
 Plane                     InfoDisplayPlane<br>
@@ -93,6 +94,7 @@ double                    DisplayScale<br>
 *UpdateMethod:* DaylightCalculationByPoints
 
 *Parameters:*
+
 EcotectPointObject        EcoPointObject<br>
 EcotectProject            EcoProject<br>
 Plane                     InfoDisplayPlane<br>
