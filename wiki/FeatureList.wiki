@@ -1,0 +1,109 @@
+=List of GC-Ecotect Features=
+
+==1. EcotectProject ==
+
+*Description:* To make connection with Ecotect and start a project. There can be only one EcotectProject feature in a particular GC transaction file.
+
+*UpdateMethod:* ByProjectTitle
+
+*Parameters:*
+
+string              ProjectTitle <br>
+string              ClientInfo<br>
+double              NorthClockwiseOffset <br>
+double              LengthOfNorthLine<br>
+double              Altitude<br>
+EcotectTerrain      LocalTerrain<br>
+EcotectWeatherFile  WeatherData<br>
+EcotectBuildingType BuildingType<br>
+
+
+==2. EcotectPointObject ==
+
+*Description:* To create ecotect points for calculation
+
+*UpdateMethod:* FromPointGrid
+
+*Parameters:*
+
+Point[][]       PointGrid<br>
+bool            ShowMarker<br>
+double          MarkerSize<br>
+TextStyle       TxtStyle<br>
+
+*UpdateMethod:* FromPointList
+
+*Parameters:*
+
+Point[]         PointList<br>
+bool            ShowMarker<br>
+double          MarkerSize<br>
+TextStyle       TxtStyle<br>
+
+==3. EcotectPolygonObject ==
+
+*Description:* To create ecotect polygon for calculation. *NOTE:* The polygons must be planar triangular!
+
+*UpdateMethod:* FromPolygonGrid
+
+*Parameters:*
+
+Polygon[][]     PolygonGrid<br>
+EcotectMaterial Material<br>
+bool            ReverseNormal<br>
+double          LengthOfNormal<br>
+bool            ShowNormals<br>
+TextStyle       TxtStyle<br>
+
+*UpdateMethod:* FromPolygonList
+
+*Parameters:*
+
+Polygon[]       PolygonList<br>
+EcotectMaterial Material<br>
+bool            ReverseNormal<br>
+double          LengthOfNormal<br>
+bool            ShowNormals<br>
+TextStyle       TxtStyle<br>
+
+==4. EcotectCalcSolar ==
+
+*Description:* To perform solar analysis
+
+*UpdateMethod:* IncidentSolarRadiationByPolygons
+
+*Parameters:*
+EcotectPolygonObject      EcoObject<br>
+EcotectProject            EcoProject<br>
+Plane                     InfoDisplayPlane<br>
+EcotectAccumulationType   CalculationType<br>
+int[]                     CalcDays<br>
+double[]                  CalcTime<br>
+int                       Precision<br>
+EcotectRadiationAttribute AttributeIndex<br>
+bool                      InDynamics<br>
+bool                      WriteToFile<br>
+string                    FileName<br>
+double                    DisplayScale<br>
+
+==5. EcotectCalcDaylight ==
+
+*Description:* To perform daylight analysis
+
+*UpdateMethod:* DaylightCalculationByPoints
+
+*Parameters:*
+EcotectPointObject        EcoPointObject<br>
+EcotectProject            EcoProject<br>
+Plane                     InfoDisplayPlane<br>
+EcotectSkyIlluminance     SkyIlluminance<br>
+int[]                     CalcDays<br>
+double[]                  CalcTime<br>
+int                       Precision<br>
+EcotectRadiationAttribute AttributeIndex<br>
+bool                      InDynamics<br>
+bool                      WriteToFile<br>
+string                    FileName<br>
+double                    MarkerSize<br>
+bool                      MarkerOn<br>
+double                    DisplayScale<br>
