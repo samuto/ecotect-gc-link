@@ -9,13 +9,11 @@ c)Download the *example transaction files* (.gct)
 
 d)Start *Ecotect* (Important! the gc-ecotect transactions will fail otherwise)
 
-e)Start Generative Components and select one of the examples.
+e)Start *Generative Components* and select one of the examples.
 
-f)Goto Utilities> Manage Feature Type > Loaded Assemblies > Select Precompiled Assembly (.dll) and load GCEcotectLink.dll.
+f)*Load GCEcotectLink.dll*. Goto Utilities> Manage Feature Type > Loaded Assemblies > Select Precompiled Assembly (.dll) and select the link.
 Recommended: Check the Load into Future Sessions to avoid loading it every time you start GC.
 
 g)If you managed to successfully load the link, you should be able to see the Ecotect features available to you in the Create New Features list.
 
 h)Run the examples!
-
-
