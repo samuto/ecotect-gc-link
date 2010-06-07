@@ -1,3 +1,4 @@
+#labels Featured
 =Instructions for installing the GC-Ecotect Link.=
 
 a)*Download GCEcotectLink.dll* and place it in your GC assemblies directory in your workspace. (eg. In windows XP-> C:\Documents and Settings\All Users\Application Data\Bentley\08.11.08.190\GenerativeComponents\WorkSpace\Projects\Examples\GC_Default\Assemblies)
@@ -5,7 +6,7 @@ a)*Download GCEcotectLink.dll* and place it in your GC assemblies directory in y
 b)*Download NDde.dll* and place it in your GC assemblies directory in your program installation directory.
 (eg. In windows XP-> C:\Program Files\Bentley 08.11.08.190\GenerativeComponents\assemblies\NDde.dll)
 
-c)*Download the example transaction files* (.gct)
+c)*Download the example transaction files* (.gct) and save them in your project / transaction directory.
 
 d)*Start Ecotect* (Important! the gc-ecotect transactions will fail otherwise)
 
