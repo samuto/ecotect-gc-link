@@ -1,6 +1,28 @@
+/***************************************************************************************
+ *   Copyright: (c) 2010 Bentley Systems, Incorporated.
+ *   Author: Kaustuv DeBiswas
+ ***************************************************************************************
+ *  
+ *  This file is part of ecotect-gc-link.
+ *  
+ *  ecotect-gc-link is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 2 of the License, or
+ *  (at your option) any later version.
+ *  
+ *  ecotect-gc-link is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *  
+ *  You should have received a copy of the GNU General Public License
+ *  along with ecotect-gc-link.  If not, see <http://www.gnu.org/licenses/>
+ *  
+ ***************************************************************************************/
+
 /*
  * EcotectCalcDayLight class
- * Version: EcotectLink V8i_R3
+ * Version: ecotect-gc-link 1.0
  * Author: Kaustuv DeBiswas
  */
 
